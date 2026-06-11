@@ -1,0 +1,97 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Maven ###
+.mvn/
+mvnw
+mvnw.cmd
+
+### Logs ###
+*.log
+logs/
+log/
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Docker data volumes ###
+mysql_data/
+redis_data/
+rabbitmq_data/
+
+### Redis ###
+dump.rdb
+*.rdb
+appendonlydir/
+
+### Env ###
+.env
+.env.local
+.env.*.local
+
+### SSL / Certs ###
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+### Java ###
+*.jar
+*.war
+*.ear
+*.class
+hs_err_pid*
+replay_pid*
+
+### Spring Boot ###
+application-local.yaml
+application-local.yml
+
+### Node ###
+node_modules/
+dist/
+
+### Project ###
+CLAUDE.md
+README_backup.md
+.feishu-last-msg.txt
+docs/面试/
+docs/面试题大全.md
+docs/交接文档.md
+docs/简历项目介绍.md
+docs/移动端前端.md
+docs/对话总结.md
